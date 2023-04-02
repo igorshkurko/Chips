@@ -1,0 +1,57 @@
+.body{
+    
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+
+}
+
+.welcome {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 250px) 1fr;
+
+  background-image: url("images/1616422589_36-p-zheltii-fon-36.jpg");
+  background-size: cover;
+
+  grid-template-rows: 140px;
+
+  height: 50vh;
+}
+
+header {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding: 10px 20px;
+}
+nav {
+  height: 100%;
+}
+#logo {
+  height: 100%;
+}
+.menu {
+  height: 100%;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.menu li {
+  margin: 0 25px;
+  font-size: larger;
+  text-shadow: 0 0 5px black;
+}
+
+.baner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/-2;
+}
